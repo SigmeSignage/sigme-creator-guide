@@ -134,11 +134,11 @@ class ManualGenerator
             }, glob($this->sourcePath . 'source/' . $lang . '/img/*.*'));
         }
 
-        // Scan files in the EN folder:
-        foreach (array_diff(scandir($this->sourcePath . 'source/en'), array('..', '.')) as $file) {
+        // Scan files in the JA folder:
+        foreach (array_diff(scandir($this->sourcePath . 'source/ja'), array('..', '.')) as $file) {
             if (stripos($file, '.md')) {
                 // Process each file in turn
-                $this->processFile($langsString, $this->outputPath, 'en', str_replace('.md', '', $file));
+                $this->processFile($langsString, $this->outputPath, 'ja', str_replace('.md', '', $file));
 
                 // Process for the other languages.
                 foreach ($languages as $lang) {
@@ -260,7 +260,7 @@ class ManualGenerator
         if (file_exists($this->sourcePath . 'source' . DIRECTORY_SEPARATOR . $lang . DIRECTORY_SEPARATOR . $file))
             return file_get_contents($this->sourcePath . 'source' . DIRECTORY_SEPARATOR . $lang . DIRECTORY_SEPARATOR . $file);
         else
-            return file_get_contents($this->sourcePath . 'source' . DIRECTORY_SEPARATOR . 'en' . DIRECTORY_SEPARATOR . $file);
+            return file_get_contents($this->sourcePath . 'source' . DIRECTORY_SEPARATOR . 'ja' . DIRECTORY_SEPARATOR . $file);
     }
 
     private function processReplacements($string)
