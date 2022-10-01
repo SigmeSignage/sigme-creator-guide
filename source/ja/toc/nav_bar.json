@@ -1,31 +1,27 @@
 [
   {
-    "title": "ツアー",
+    "title": "はじめに",
     "href": "index.html",
-    "containsToc": ["tour"]
+    "containsToc": ["welcom"]
   },{
-    "title": "ユーザー",
-    "href": "users.html",
-    "containsToc": ["users"]
+    "title": "CMSの基本を学ぼう",
+    "href": "cms-basic.html",
+    "containsToc": ["basic"]
   },{
-    "title": "ディスプレイ",
-    "href": "displays.html",
-    "containsToc": ["displays"]
+    "title": "CMSを使う準備をしよう",
+    "href": "prepare.html",
+    "containsToc": ["prepare"]
   },{
-    "title": "レイアウト",
-    "href": "layouts.html",
-    "containsToc": ["layouts"]
+    "title": "シンプルな画面を作ってみよう",
+    "href": "simple-layout.html",
+    "containsToc": ["simple-layout"]
   },{
-    "title": "メディア",
-    "href": "media.html",
-    "containsToc": ["media", "widgets"]
+    "title": "店舗向けの画面を作ろう",
+    "href": "exsample.html",
+    "containsToc": ["exsamplea"]
   },{
-    "title": "スケジューリング",
-    "href": "scheduling.html",
-    "containsToc": ["scheduling"]
-  },{
-    "title": "トラブルシューティング",
-    "href": "troubleshooting.html",
-    "containsToc": ["troubleshooting"]
+    "title": "高度な使い方を学ぼう",
+    "href": "advanced-usage.html",
+    "containsToc": ["advanced"]
   }
 ]
