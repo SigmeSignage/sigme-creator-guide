@@ -5,7 +5,7 @@
     "containsToc": ["welcom"]
   },{
     "title": "CMSの基本を学ぼう",
-    "href": "cms-basic.html",
+    "href": "cms-feature.html",
     "containsToc": ["basic"]
   },{
     "title": "CMSを使う準備をしよう",

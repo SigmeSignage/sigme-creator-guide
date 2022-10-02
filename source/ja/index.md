@@ -24,3 +24,5 @@ COVID-19のパンデミックにより、数年にわたって、消費者とブ
 SigmeProject  代表 三浦雅孝
 
 
+
+![Digital Signage](img/CloudSignage.png)
