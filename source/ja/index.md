@@ -20,8 +20,10 @@ COVID-19のパンデミックにより、数年にわたって、消費者とブ
 
 
 
-2022年10月
+<div style="text-align: right;">
+2022年10月<br />
 SigmeProject  代表 三浦雅孝
+</div>
 
 
 
