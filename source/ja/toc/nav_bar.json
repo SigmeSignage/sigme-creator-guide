@@ -12,13 +12,13 @@
     "href": "prepare.html",
     "containsToc": ["prepare"]
   },{
-    "title": "シンプルな画面を作ってみよう",
-    "href": "simple-layout.html",
-    "containsToc": ["simple-layout"]
+    "title": "Art Galleryのサイネージを作ってみよう",
+    "href": "gallery-scenario.html",
+    "containsToc": ["gallery"]
   },{
     "title": "店舗向けの画面を作ろう",
     "href": "exsample.html",
-    "containsToc": ["exsamplea"]
+    "containsToc": ["exsample"]
   },{
     "title": "高度な使い方を学ぼう",
     "href": "advanced-usage.html",
